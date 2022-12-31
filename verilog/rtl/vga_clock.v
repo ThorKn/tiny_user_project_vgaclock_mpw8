@@ -4,13 +4,13 @@
 `timescale 1ns/1ps
 
 module thorkn_vgaclock (
+  input               clk,
+  input               reset,
   output              io_h_sync,
   output              io_v_sync,
   output              io_r,
   output              io_g,
-  output              io_b,
-  input               clk,
-  input               reset
+  output              io_b
 );
 
   wire                vga_sync_gen_io_h_sync;
