@@ -3,6 +3,22 @@
 
 `timescale 1ns/1ps
 
+module thorkn_vgaclock_top (
+  input [1:0] in,
+  output [4:0] out
+);
+
+thorkn_vgaclock thorkn_vgaclock (
+  in[0],
+  in[1],
+  out[0],
+  out[1],
+  out[2],
+  out[3],
+  out[4]
+);
+endmodule
+
 module thorkn_vgaclock (
   input               clk,
   input               reset,
