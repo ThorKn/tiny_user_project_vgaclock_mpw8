@@ -91,13 +91,13 @@
 *75 net46
 *76 net47
 *77 net1
-*78 net11
-*79 net12
-*80 net13
-*81 net14
-*82 net15
-*83 net16
-*84 net76
+*78 net76
+*79 net11
+*80 net12
+*81 net13
+*82 net14
+*83 net15
+*84 net16
 *85 net17
 *86 net18
 *87 net19
@@ -2955,87 +2955,87 @@ io_out[9] O
 *D_NET *78 0.00069301
 *CONN
 *P io_out[10] O
-*I *2261:LO O *D sky130_fd_sc_hd__conb_1
+*I *2332:HI O *D sky130_fd_sc_hd__conb_1
 *CAP
 1 io_out[10] 0.000303122
-2 *2261:LO 0.000303122
+2 *2332:HI 0.000303122
 3 io_oeb[10] io_out[10] 8.67662e-05
 4 io_oeb[9] io_out[10] 0
 *RES
-1 *2261:LO io_out[10] 18.267 
+1 *2332:HI io_out[10] 18.267 
 *END
 
 *D_NET *79 0.000845532
 *CONN
 *P io_out[11] O
-*I *2262:LO O *D sky130_fd_sc_hd__conb_1
+*I *2261:LO O *D sky130_fd_sc_hd__conb_1
 *CAP
 1 io_out[11] 0.000335289
-2 *2262:LO 0.000335289
+2 *2261:LO 0.000335289
 3 io_oeb[11] io_out[11] 0.000174953
 *RES
-1 *2262:LO io_out[11] 18.5271 
+1 *2261:LO io_out[11] 18.5271 
 *END
 
 *D_NET *80 0.000870393
 *CONN
 *P io_out[12] O
-*I *2263:LO O *D sky130_fd_sc_hd__conb_1
+*I *2262:LO O *D sky130_fd_sc_hd__conb_1
 *CAP
 1 io_out[12] 0.00034772
-2 *2263:LO 0.00034772
+2 *2262:LO 0.00034772
 3 io_oeb[12] io_out[12] 0.000174953
 *RES
-1 *2263:LO io_out[12] 18.5271 
+1 *2262:LO io_out[12] 18.5271 
 *END
 
 *D_NET *81 0.000913608
 *CONN
 *P io_out[13] O
-*I *2264:LO O *D sky130_fd_sc_hd__conb_1
+*I *2263:LO O *D sky130_fd_sc_hd__conb_1
 *CAP
 1 io_out[13] 0.000422019
-2 *2264:LO 0.000422019
+2 *2263:LO 0.000422019
 3 io_oeb[12] io_out[13] 0
 4 io_oeb[13] io_out[13] 6.9569e-05
 *RES
-1 *2264:LO io_out[13] 20.0884 
+1 *2263:LO io_out[13] 20.0884 
 *END
 
 *D_NET *82 0.00081524
 *CONN
 *P io_out[14] O
-*I *2265:LO O *D sky130_fd_sc_hd__conb_1
+*I *2264:LO O *D sky130_fd_sc_hd__conb_1
 *CAP
 1 io_out[14] 0.000374122
-2 *2265:LO 0.000374122
+2 *2264:LO 0.000374122
 3 io_oeb[13] io_out[14] 0
 4 io_oeb[14] io_out[14] 6.69961e-05
 *RES
-1 *2265:LO io_out[14] 19.4813 
+1 *2264:LO io_out[14] 19.4813 
 *END
 
 *D_NET *83 0.000894757
 *CONN
 *P io_out[15] O
-*I *2266:LO O *D sky130_fd_sc_hd__conb_1
+*I *2265:LO O *D sky130_fd_sc_hd__conb_1
 *CAP
 1 io_out[15] 0.000447378
-2 *2266:LO 0.000447378
+2 *2265:LO 0.000447378
 3 io_oeb[14] io_out[15] 0
 *RES
-1 *2266:LO io_out[15] 22.5143 
+1 *2265:LO io_out[15] 22.5143 
 *END
 
-*D_NET *84 0.000923001
+*D_NET *84 0.000956351
 *CONN
 *P io_out[16] O
-*I *2332:HI O *D sky130_fd_sc_hd__conb_1
+*I *2266:LO O *D sky130_fd_sc_hd__conb_1
 *CAP
-1 io_out[16] 0.000461501
-2 *2332:HI 0.000461501
+1 io_out[16] 0.000478175
+2 *2266:LO 0.000478175
 *RES
-1 *2332:HI io_out[16] 22.4429 
+1 *2266:LO io_out[16] 23.05 
 *END
 
 *D_NET *85 0.00115233

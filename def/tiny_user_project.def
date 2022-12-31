@@ -2224,12 +2224,12 @@ COMPONENTS 2220 ;
     - TAP_387 sky130_fd_sc_hd__tapvpwrvgnd_1 + SOURCE DIST + FIXED ( 134320 155040 ) FS ;
     - tiny_user_project_1 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 13600 ) FS ;
     - tiny_user_project_10 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 106080 ) FS ;
-    - tiny_user_project_11 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 114240 ) N ;
-    - tiny_user_project_12 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 125120 ) N ;
-    - tiny_user_project_13 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 136000 ) N ;
-    - tiny_user_project_14 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 146880 ) N ;
-    - tiny_user_project_15 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 152320 ) N ;
-    - tiny_user_project_16 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 155040 ) S ;
+    - tiny_user_project_11 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 125120 ) N ;
+    - tiny_user_project_12 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 136000 ) N ;
+    - tiny_user_project_13 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 146880 ) N ;
+    - tiny_user_project_14 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 152320 ) N ;
+    - tiny_user_project_15 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 155040 ) S ;
+    - tiny_user_project_16 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 124660 155040 ) S ;
     - tiny_user_project_17 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 109940 155040 ) S ;
     - tiny_user_project_18 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 91540 155040 ) S ;
     - tiny_user_project_19 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 74980 155040 ) S ;
@@ -2295,7 +2295,7 @@ COMPONENTS 2220 ;
     - tiny_user_project_73 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 7820 35360 ) S ;
     - tiny_user_project_74 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 7820 24480 ) S ;
     - tiny_user_project_75 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 7820 16320 ) FN ;
-    - tiny_user_project_76 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 124660 155040 ) FS ;
+    - tiny_user_project_76 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 114240 ) FN ;
     - tiny_user_project_8 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 84320 ) FS ;
     - tiny_user_project_9 sky130_fd_sc_hd__conb_1 + SOURCE TIMING + PLACED ( 140760 95200 ) FS ;
 END COMPONENTS
@@ -2608,31 +2608,31 @@ PINS 116 ;
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 148000 13260 ) N ;
-    - io_out[10] + NET net11 + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[10] + NET net76 + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 148000 115260 ) N ;
-    - io_out[11] + NET net12 + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[11] + NET net11 + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 148000 125460 ) N ;
-    - io_out[12] + NET net13 + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[12] + NET net12 + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 148000 135660 ) N ;
-    - io_out[13] + NET net14 + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[13] + NET net13 + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 148000 145860 ) N ;
-    - io_out[14] + NET net15 + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[14] + NET net14 + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 148000 156060 ) N ;
-    - io_out[15] + NET net16 + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[15] + NET net15 + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 140990 168000 ) N ;
-    - io_out[16] + NET net76 + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[16] + NET net16 + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 124430 168000 ) N ;
@@ -3991,14 +3991,7 @@ NETS 114 ;
       NEW met1 ( 141910 106590 ) M1M2_PR
       NEW met2 ( 141910 105060 ) M2M3_PR
       NEW met1 ( 141910 106590 ) RECT ( -355 -70 0 70 )  ;
-    - net11 ( PIN io_out[10] ) ( tiny_user_project_11 LO ) + USE SIGNAL
-      + ROUTED met2 ( 141910 115260 ) ( * 115430 )
-      NEW met3 ( 141910 115260 ) ( 146740 * 0 )
-      NEW li1 ( 141910 115430 ) L1M1_PR
-      NEW met1 ( 141910 115430 ) M1M2_PR
-      NEW met2 ( 141910 115260 ) M2M3_PR
-      NEW met1 ( 141910 115430 ) RECT ( -355 -70 0 70 )  ;
-    - net12 ( PIN io_out[11] ) ( tiny_user_project_12 LO ) + USE SIGNAL
+    - net11 ( PIN io_out[11] ) ( tiny_user_project_11 LO ) + USE SIGNAL
       + ROUTED met2 ( 141910 126820 ) ( * 126990 )
       NEW met3 ( 141910 126820 ) ( 146740 * )
       NEW met3 ( 146740 125460 0 ) ( * 126820 )
@@ -4006,7 +3999,7 @@ NETS 114 ;
       NEW met1 ( 141910 126990 ) M1M2_PR
       NEW met2 ( 141910 126820 ) M2M3_PR
       NEW met1 ( 141910 126990 ) RECT ( -355 -70 0 70 )  ;
-    - net13 ( PIN io_out[12] ) ( tiny_user_project_13 LO ) + USE SIGNAL
+    - net12 ( PIN io_out[12] ) ( tiny_user_project_12 LO ) + USE SIGNAL
       + ROUTED met2 ( 141910 137020 ) ( * 137190 )
       NEW met3 ( 141910 137020 ) ( 146740 * )
       NEW met3 ( 146740 135660 0 ) ( * 137020 )
@@ -4014,25 +4007,30 @@ NETS 114 ;
       NEW met1 ( 141910 137190 ) M1M2_PR
       NEW met2 ( 141910 137020 ) M2M3_PR
       NEW met1 ( 141910 137190 ) RECT ( -355 -70 0 70 )  ;
-    - net14 ( PIN io_out[13] ) ( tiny_user_project_14 LO ) + USE SIGNAL
+    - net13 ( PIN io_out[13] ) ( tiny_user_project_13 LO ) + USE SIGNAL
       + ROUTED met2 ( 141910 145860 ) ( * 148070 )
       NEW met3 ( 141910 145860 ) ( 146740 * 0 )
       NEW li1 ( 141910 148070 ) L1M1_PR
       NEW met1 ( 141910 148070 ) M1M2_PR
       NEW met2 ( 141910 145860 ) M2M3_PR
       NEW met1 ( 141910 148070 ) RECT ( -355 -70 0 70 )  ;
-    - net15 ( PIN io_out[14] ) ( tiny_user_project_15 LO ) + USE SIGNAL
+    - net14 ( PIN io_out[14] ) ( tiny_user_project_14 LO ) + USE SIGNAL
       + ROUTED met2 ( 141910 154530 ) ( * 156060 )
       NEW met3 ( 141910 156060 ) ( 146740 * 0 )
       NEW li1 ( 141910 154530 ) L1M1_PR
       NEW met1 ( 141910 154530 ) M1M2_PR
       NEW met2 ( 141910 156060 ) M2M3_PR
       NEW met1 ( 141910 154530 ) RECT ( -355 -70 0 70 )  ;
-    - net16 ( PIN io_out[15] ) ( tiny_user_project_16 LO ) + USE SIGNAL
+    - net15 ( PIN io_out[15] ) ( tiny_user_project_15 LO ) + USE SIGNAL
       + ROUTED met2 ( 140990 156570 ) ( * 166260 0 )
       NEW li1 ( 140990 156570 ) L1M1_PR
       NEW met1 ( 140990 156570 ) M1M2_PR
       NEW met1 ( 140990 156570 ) RECT ( -355 -70 0 70 )  ;
+    - net16 ( PIN io_out[16] ) ( tiny_user_project_16 LO ) + USE SIGNAL
+      + ROUTED met1 ( 124430 156570 ) ( 124890 * )
+      NEW met2 ( 124430 156570 ) ( * 166260 0 )
+      NEW li1 ( 124890 156570 ) L1M1_PR
+      NEW met1 ( 124430 156570 ) M1M2_PR ;
     - net17 ( PIN io_out[17] ) ( tiny_user_project_17 LO ) + USE SIGNAL
       + ROUTED met1 ( 107870 156570 ) ( 110170 * )
       NEW met2 ( 107870 156570 ) ( * 166260 0 )
@@ -4464,11 +4462,13 @@ NETS 114 ;
       NEW li1 ( 8050 17510 ) L1M1_PR
       NEW met1 ( 8050 17510 ) M1M2_PR
       NEW met1 ( 8050 17510 ) RECT ( -355 -70 0 70 )  ;
-    - net76 ( PIN io_out[16] ) ( tiny_user_project_76 HI ) + USE SIGNAL
-      + ROUTED met1 ( 124430 157250 ) ( 124890 * )
-      NEW met2 ( 124430 157250 ) ( * 166260 0 )
-      NEW li1 ( 124890 157250 ) L1M1_PR
-      NEW met1 ( 124430 157250 ) M1M2_PR ;
+    - net76 ( PIN io_out[10] ) ( tiny_user_project_76 HI ) + USE SIGNAL
+      + ROUTED met2 ( 141910 115090 ) ( * 115260 )
+      NEW met3 ( 141910 115260 ) ( 146740 * 0 )
+      NEW li1 ( 141910 115090 ) L1M1_PR
+      NEW met1 ( 141910 115090 ) M1M2_PR
+      NEW met2 ( 141910 115260 ) M2M3_PR
+      NEW met1 ( 141910 115090 ) RECT ( -355 -70 0 70 )  ;
     - net8 ( PIN io_out[7] ) ( tiny_user_project_8 LO ) + USE SIGNAL
       + ROUTED met2 ( 141910 84660 ) ( * 84830 )
       NEW met3 ( 141910 84660 ) ( 146740 * 0 )

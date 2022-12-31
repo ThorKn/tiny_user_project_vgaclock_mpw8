@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1672514018
+timestamp 1672515843
 << obsli1 >>
 rect 286104 285159 313888 314569
 << obsm1 >>
@@ -3212,8 +3212,8 @@ port 645 nsew signal input
 string FIXED_BBOX 0 0 584000 704000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 1684116
-string GDS_FILE /home/runner/work/tiny_user_project_vgaclock_mpw8/tiny_user_project_vgaclock_mpw8/openlane/user_project_wrapper/runs/22_12_31_19_11/results/signoff/user_project_wrapper.magic.gds
-string GDS_START 502728
+string GDS_END 1684140
+string GDS_FILE /home/runner/work/tiny_user_project_vgaclock_mpw8/tiny_user_project_vgaclock_mpw8/openlane/user_project_wrapper/runs/22_12_31_19_42/results/signoff/user_project_wrapper.magic.gds
+string GDS_START 502752
 << end >>
 

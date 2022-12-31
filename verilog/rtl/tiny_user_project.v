@@ -17,11 +17,11 @@ module tiny_user_project(
 
 // pass input and output pins defined in user_defines.v
 thorkn_vgaclock mod (
-    io_in[15:8],
-    io_out[23:16]
+    io_in[9:8],
+    io_out[14:10]
 );
 // all output enabled
-assign io_oeb[23:16] = 8'b0;
+assign io_oeb[14:10] = 8'b0;
 
 endmodule	// tiny_user_project
 
