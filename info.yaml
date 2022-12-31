@@ -27,19 +27,10 @@ documentation:
   inputs:               # a description of what the inputs do
     - clock
     - reset
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
   outputs:
     - io_h_sync         # a description of what the outputs do
     - io_v_sync
     - io_r
     - io_g
     - io_b
-    - none
-    - none
-    - none
 
