@@ -16,7 +16,7 @@ module tiny_user_project(
 );
 
 // pass input and output pins defined in user_defines.v
-thorkn_vgaclock mod (
+thorkn_vgaclock_top mod (
     io_in[9:8],
     io_out[14:10]
 );
