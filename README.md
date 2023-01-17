@@ -10,6 +10,10 @@ Template for submitting [TinyTapeout](https://tinytapeout.com) based projects to
 
 1. [Proppys Tiny User Project Template](https://github.com/proppy/tiny_user_project/generate)
 
+### VGA clock screen photo
+
+![VGA clock screen photo](vga_clock_mpw8_screen_photo.jpg)
+
 ### VGA clock drawing
 
 ![VGA clock drawing](vga_clock_mpw8_drawing.jpg)
